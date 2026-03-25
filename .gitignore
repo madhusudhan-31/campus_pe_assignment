@@ -1,0 +1,12 @@
+# .gitignore
+# IMPORTANT: The .env file contains your secret API keys.
+# This file makes sure Git never accidentally uploads them.
+
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+venv/
+env/
+.venv/
